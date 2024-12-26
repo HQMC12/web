@@ -1,0 +1,40 @@
+
+/*footer--------main*/
+
+marquee{color: rgb(211, 0, 0); margin: 10px 0; border: 0.1px solid gray;  padding: 10px; background-color: #f0f0f04b; font-weight: 700;}
+
+
+.mbanner{width: auto; padding: 2vw; margin: auto; margin-top: 2vw; margin-bottom: 2vw; display: flex; justify-content: center; align-items: center;  border: 1px solid #a5a5a5; background-color:#f0f0f04b; backdrop-filter: blur(50px); }
+.Banner{  text-transform: uppercase; text-align: center; color: #fff; border: 3px solid #1bfe00; padding-top:3vw; width: 100%;  padding:2vw;}
+.Banner h2{margin-bottom: 2%; padding-bottom: 1%; border-bottom: 3px solid gray;}
+.Banner a h4{text-align: center; border-top: 3px solid gray; margin-top: 2%; padding-top: 1%; }	
+
+.Gallery-Header h1{text-align: center; border: 1px solid rgb(199, 199, 199); font-family: sans-serif; text-transform: uppercase; font-size: xx-large; font-weight: 900; background-color: #00000091; color: #ffffff; padding: 10px;}
+.Gallery { display:inline-block;}
+.photos { display:inline-block;}
+.Gallery img{width:24.75%;}
+.photos img{width:24.75%;}
+
+.buildingarc{width: 50%;}
+
+
+
+    @media screen and (max-width:680px){
+
+    marquee{padding: 6px; font-size: 3vw; }
+
+
+.Banner{padding: 5%; border: 3px solid #1bfe00;}
+.Banner h2{ font-size: 3.4vw; }
+.Banner h3{ font-size: 2.5vw; }
+.Banner a h4{ font-size: 1.7vw; border-top: 3px solid gray;  margin-top: 2%; padding-top: 1%; }	
+
+.Gallery-Header h1{font-size: 5vw; font-weight: 900; padding: 10px;}
+.buildingarc{width: 100%;}
+
+.Gallery img{width:49.2%;}
+.photos img{width:49.2%;}
+
+
+
+    }

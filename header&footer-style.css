@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif; flex-wrap: nowrap;
+    background-image: url(All/icons/hd\ mosque\ blur.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100vh;
+    flex-wrap: nowrap;
+}
+
+header{
+    width: 100%; border: 1px solid #dbdbdb;
+    box-shadow: 0 8px 6px rgba(0, 0, 0, 0.2);
+    
+}
+
+.header {
+    background-image:linear-gradient(#000d55,#000d7e);
+    color: #ffffff;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+}
+.header .logo img {
+    width: 50px;
+    height: 48px;
+    margin-right: 15px;
+}
+
+.navbar {
+    background-color: #0400fc0c; /* Dark green */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+}
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 35px;
+    padding: 4px 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.active{background-color: #00a516; border: 1px solid rgb(0, 252, 0); border-radius: 7px;}
+.navbar a:hover {
+    background-color: #004617;
+    border-radius: 7px;
+}
+
+/*header-------footer*/
+
+footer{position: bottom; margin-top: 50px; bottom: 0; width: 100%;  background-image:linear-gradient(#05287f,#031051);  border: 1px solid #ccc; box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.2);  border-radius: 10px;  }
+
+.card {padding: 20px;    display: flex;  justify-content: space-between;  align-items: center;        }
+.flogo{width: 22px; margin-right: 10px; }
+
+.details p {margin: 8px 0;  font-size: 16px;  color: #ffffff;  display: flex;  align-items: center;  }
+.details p a{margin-left: 10px; text-decoration: none; }
+.details p a img{height: 15px; margin-right: 4px;}
+.details button{ display: flex; padding: 0 1px;  font-size: 12px; align-items: center; cursor: pointer; }
+
+.qr-section {text-align: center;}
+.qr-section img {  width: 100px;  border: 3px solid #00ff00;  border-radius: 5px;   }
+.qr-section p {  margin: 5px 0;  font-size: 12px;  font-weight: bold;  color: #ffffff;  }
+
+.ffoot p{text-align: center; font-size: 17px; padding: 8px; margin: 0; color: #a1a1a1;  margin-bottom: 10px; border-top: 2px solid gray;}
+
+
+
+
+
+
+
+@media screen and (max-width:680px){
+    
+
+    .header {padding: 9px 8px; }
+    .header .logo img {  width: 8.5vw; height: 8vw;  margin-right: 5px; }
+    .header h1{font-size: 4.7vw;}
+
+    .navbar { padding: 3px 0;   }
+    .navbar a {margin: 0 2.2vw;   padding: 2px 3vw;  font-size: 3vw;  font-weight: 400; }
+/*header--------footer*/    
+    .card {padding: 1.5vw; display: block;}
+    .flogo{width: 19px; margin-right: 1.5vw; }
+
+    .details p {margin: 2vw 0;  font-size: 15px; }
+    .details p a{margin-left: 1.5vw;  }
+    .details p a img{height: 13px; margin-right: 0.8vw;}
+    .details button{ font-size: 10px;}
+
+    .qr-section img {  width: 13vw;  border: 0.5vw solid #00ff00;}
+    .qr-section p {  margin: 1vw 0;  font-size: 2.5vw;  font-weight: 400; }
+
+    .ffoot p{font-size: 12px; padding: 8px; margin: 0; color: #a1a1a1;  margin-bottom: 10px; border-top: 2px solid gray;}
+}
