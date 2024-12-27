@@ -62,8 +62,13 @@ footer{position: bottom; margin-top: 50px; bottom: 0; width: 100%;  background-i
 .details p {margin: 8px 0;  font-size: 16px;  color: #ffffff;  display: flex;  align-items: center;  }
 .details p a{margin-left: 10px; text-decoration: none; }
 .details p a img{height: 15px; margin-right: 4px;}
-.details button{ display: flex; padding: 0 1px;  font-size: 12px; align-items: center; cursor: pointer; }
-
+.details button{ display: flex; padding: 0.5px 1px;  font-size: 12px; align-items: center; cursor: pointer; }
+button:hover{
+    background-color: #00ff00;
+    border: none;
+    border-radius: 2px;
+    padding: 2px 3px;
+}
 .qr-section {text-align: center;}
 .qr-section img {  width: 100px;  border: 3px solid #00ff00;  border-radius: 5px;   }
 .qr-section p {  margin: 5px 0;  font-size: 12px;  font-weight: bold;  color: #ffffff;  }
