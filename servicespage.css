@@ -18,7 +18,7 @@
 }
 .nb-main, .lb-main{
     margin: auto;
-    padding: 15px;
+    padding: 10px 5px;
     width: 95vw;
     display: flex; flex-wrap: wrap;
     flex-grow: 1; flex-basis: 200px;
@@ -31,15 +31,17 @@
     box-shadow: 0 8px 6px rgba(0, 0, 0, 0.2)
 }
 .nb-main img {
-    height: 200px;
+    height: 180px;
+    width: 120px;
 }
 .nb-main a{
     justify-content: center;
     display: flex;
-    margin-right: 10px;
+    margin-right: 5px;
+    margin-top: 5px;
 }
 .nb-main a:hover{
-    border: 2px solid #1bfe00;
+    border: 1px solid #1bfe00;
 }
 .lb-main a:hover{
     border: 2px solid #1bfe00;
@@ -73,6 +75,7 @@
             font-weight: 900;
         }
         .nb-main img {
-            height: 180px;
+            height: 160px;
+            width: 110px;
         }
     }
