@@ -35,6 +35,10 @@ marquee{color: rgb(211, 0, 0); margin: 10px 0; border: 0.1px solid gray;  paddin
 
     marquee{padding: 6px; font-size: 3vw; }
 
+    .app-link details{padding: 10px 10px;             margin: 8px;}
+    .app-link details summary{    font-size: 3.3vw;}
+    .app-link details a{font-size: 3vw;}
+
 
 .Banner{padding: 5%; border: 3px solid #1bfe00;}
 .Banner h2{ font-size: 3.4vw; }
