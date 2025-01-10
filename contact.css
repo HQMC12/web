@@ -1,0 +1,52 @@
+main{width:80%; margin: 20px auto;}
+
+.container-contact{
+    padding: 20px; margin: 10px 0px;
+    background: #ffffffb6;
+    border-radius: 10px;
+    border: 2px solid greenyellow;
+}
+section{
+    margin-bottom: 20px;
+}
+main section h2{
+    color: rgb(0, 115, 150);
+    padding: 10px 0;
+    border-bottom: 3px solid rgb(0, 159, 170);
+}
+main section h3{
+    text-align: justify; 
+    margin: 15px 0px;
+}
+main section li{
+    font-size: x-large;
+    margin: 10px 0px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.feedback li{list-style: circle;}
+.icons{
+    width: 50px;
+    margin-right: 20px;
+}
+button{margin-left: 20px; display: flex; align-items: center; padding: 3px 15px; }
+button img{width: 20px; margin-right: 10px; height: 20px;}
+button a{text-decoration: none; color: black;}
+
+
+
+@media screen and (max-width:600px) {
+    main{font-size: 80%; width: 90%;}
+    .container-contact{        padding: 15px; margin: 10px 0px;        }
+
+    main section li{font-size: medium;}
+
+    button{margin-left: 5px; padding: 3px 5px; flex-wrap: wrap; }
+button img{width: 12px; height: 12px; margin-right: 3px;}
+button a{font-size: 80%;}
+    .icons{
+        width: 30px;
+        margin-right: 8px;
+    }
+}

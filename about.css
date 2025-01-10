@@ -1,0 +1,36 @@
+main {width: 90%; line-height: 1.6; padding: 20px; margin: 20px auto; background: rgba(255, 255, 255, 0.856); border: 1px solid white; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);        }
+main section h1 {color: #007bff;border-bottom: 2px solid #007bff;padding-bottom: 5px; margin-bottom: 8px;       }
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.teacher-section{
+    flex-basis: auto;    flex-grow: 1; 
+    text-align: center; 
+    padding: 15px; margin: 3px; 
+    border-radius: 10px; border: 1px solid gray; 
+    background: #c1e0fd; }
+summary{cursor: pointer;}
+.teacher-contact p{text-align:left;}
+.teacher-photo-h{width: 90px; border-radius: 50%; border: 2px solid rgb(49, 172, 0);}
+.teacher-photo-m{width: 90px; border-radius: 50%; border: 2px solid rgb(172, 20, 0);}
+.teacher-photo-s{width: 90px; border-radius: 50%; border: 2px solid rgb(0, 46, 172);}
+section{margin-bottom: 20px;}
+iframe{
+    width: 600px; height: 450px;
+    margin: 20px auto;
+    border-radius: 10px; 
+}
+.iframe-map{
+    padding: 40px;
+    background: #ffffff88;
+    border: 2px solid green; border-radius: 10px;
+}
+@media screen and (max-width:1000px) {
+    iframe{width: 81vw; height: 600px;}
+}
+@media screen and (max-width:500px) {
+        main{font-size: 80%;}
+        .teacher-section img{width: 70px;}
+}

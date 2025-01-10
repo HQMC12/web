@@ -1,0 +1,39 @@
+
+        main {width: 80%; line-height: 1.6; padding: 20px; margin: 20px auto; background: rgba(255, 255, 255, 0.856); border: 1px solid white; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);        }
+        
+        main section {margin-bottom: 20px;        }
+        main section h2 {color: #007bff;border-bottom: 2px solid #007bff;padding-bottom: 5px; margin-bottom: 8px;       }
+        main section ul {list-style: none; padding: 0;        }
+        main section ul li {margin-bottom: 10px;        }
+
+        .advence{list-style: inside;}
+        .highlight {background: #ffffff;padding: 10px;border-left: 4px solid #007bff; border-right: 0.1px solid rgb(170, 170, 170) ; border-top: 0.1x solid rgb(170, 170, 170); border-bottom: 0.1px solid rgb(170, 170, 170);        }
+
+        details summary{  font-size: larger; font-weight: 500;  color:#000000dc; cursor: pointer;        }
+        
+        .edu-sys-islamia, .edu-sys-exam, .img-notice, .img-gallery{ margin-left: 25px; }
+        .sec-edu-sys{ font-size: large; list-style: none;  }
+        .everyday-ct {list-style: none; margin-left: 25px;}
+
+        .khoroch-summary-home{margin-left: 25px;}
+        .addm-vividinfo{text-decoration: none;}
+        .techer-about{text-decoration: none; margin-left: 20px;  }
+
+       .img-gallery img{width: 300px; }
+       .img-notice img{height: 190px; width: 130px;}
+
+        @media screen and (max-width:890px) {
+            main{ width: 90%;}
+
+        }
+        @media screen and (max-width:620px) {
+            main {font-size: 80%;}
+            main section h2{margin-bottom: 5px; }
+            main section p, main section li{text-align: justify;}
+            summary{  font-size: larger; font-weight: 500;  color:#000000dc;         }
+            .edu-sys-islamia, .edu-sys-exam, .img-notice, .img-gallery, .everyday-ct{ margin-left: 18px; }
+            .speech4lowfees{ font-size: small;}
+            
+            .img-gallery img{ width: 35vw;}
+            .img-notice img{width: 95px; height: 140px;}
+        }
