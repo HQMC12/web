@@ -1,6 +1,26 @@
 
         main {width: 80%; line-height: 1.6; padding: 20px; margin: 20px auto; background: rgba(255, 255, 255, 0.856); border: 1px solid white; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);        }
-        
+
+        .app-link{    display: flex;    justify-content: center;}
+        .app-link details{
+            background-color: #00645f;    color: #fff;
+            padding: 10px 30px;             margin: 10px;
+            cursor: pointer;
+            border-radius: 10px;            border: 1px solid #fff;
+        }
+        .app-link datalist summary{    margin-bottom: 10px;}
+        .app-link details a{
+            background-color: #003b36;    color: #ffffff;
+            text-decoration: none;
+            border: 1px solid #000;       border-radius: 10px;
+            padding: 5px 10px;              margin-top: 10px;
+            font-family: sans-serif;        font-weight: bold;
+        }
+        .app-link details a:hover{    color: #1bfe00;}
+
+        .app-link-h{color: #fff;}
+
+
         main section {margin-bottom: 20px;        }
         main section h2 {color: #007bff;border-bottom: 2px solid #007bff;padding-bottom: 5px; margin-bottom: 8px;       }
         main section ul {list-style: none; padding: 0;        }
@@ -27,6 +47,11 @@
 
         }
         @media screen and (max-width:620px) {
+            .app-link details{padding: 10px 10px;             margin: 8px;}
+            .app-link details summary{    font-size: 3.3vw;}
+            .app-link details a{font-size: 2.6vw;}
+
+                
             main {font-size: 80%;}
             main section h2{margin-bottom: 5px; }
             main section p, main section li{text-align: justify;}
