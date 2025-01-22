@@ -26,6 +26,9 @@
         main section ul {list-style: none; padding: 0;        }
         main section ul li {margin-bottom: 10px;        }
 
+        .complexplanh{margin-top: 20px; margin-bottom: 10px;}
+        .highlight1 {color:#fff; background: #008116; padding: 10px;border-left: 4px solid #00d111; border-right: 0.1px solid rgb(170, 170, 170) ; border-top: 0.1x solid rgb(170, 170, 170); border-bottom: 0.1px solid rgb(170, 170, 170);        }
+
         .advence{list-style: inside;}
         .highlight {background: #ffffff;padding: 10px;border-left: 4px solid #007bff; border-right: 0.1px solid rgb(170, 170, 170) ; border-top: 0.1x solid rgb(170, 170, 170); border-bottom: 0.1px solid rgb(170, 170, 170);        }
 
