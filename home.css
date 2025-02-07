@@ -41,7 +41,8 @@
         .khoroch-summary-home{margin-left: 25px;}
         .addm-vividinfo{text-decoration: none;}
         .techer-about{text-decoration: none; margin-left: 20px;  }
-
+        
+        .video1{height: 300px;}
        .img-gallery img{width: 300px; }
        .img-notice img{height: 190px; width: 130px;}
 
@@ -61,7 +62,8 @@
             summary{  font-size: larger; font-weight: 500;  color:#000000dc;         }
             .edu-sys-islamia, .edu-sys-exam, .img-notice, .img-gallery, .everyday-ct{ margin-left: 18px; }
             .speech4lowfees{ font-size: small;}
-            
+
+                 .video1{height: 70vw;}
             .img-gallery img{ width: 35vw;}
             .img-notice img{width: 95px; height: 140px;}
         }
