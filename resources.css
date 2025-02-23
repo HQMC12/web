@@ -59,8 +59,8 @@ summary{cursor: pointer;}
 }
 
 .nb-main img {
-    height: 180px;
-    width: 120px;
+    height: 360px;
+    width: 250px;
 }
 .nb-main a{
     justify-content: center;
@@ -108,7 +108,7 @@ summary{cursor: pointer;}
         .nb-header p, .lb-header p, .reso-board p{width: 90%;}
         .nb-main, .lb-main, .reso-main{width: 90%;}
         .nb-main img {
-            height: 160px;
-            width: 110px;
+            height: 360px;
+            width: 250px;
         }
     }
